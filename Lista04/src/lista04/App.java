@@ -22,6 +22,7 @@ public class App {
         c1.mover();
         c2.mover();
         c3.mover();
+        System.out.println("Fim");
     }
     
 }
