@@ -9,17 +9,17 @@ public class Sistema {
 
 
 
-        Loja l1= new Loja("Redragon","Eletronicos",2003);
+        Loja loja1= new Loja("Redragon","Eletronicos",2003);
 
 
 
-        l1.admitirVendedor(v1);
+        loja1.admitirVendedor(v1);
         v1.vender();
         System.out.println();
 
 
-        l1.demitirVendedor(v1);
-        l1.admitirVendedor(v2);
+        loja1.demitirVendedor(v1);
+        loja1.admitirVendedor(v2);
         v2.vender();
 
     }
